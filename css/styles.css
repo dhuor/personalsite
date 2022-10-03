@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+  /*web safe fonts = better chance of text rendering correctly, however no font is 100% safe*/
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem; /*16px 90px/16 = 562.5%*/
+  color: #22577A;
+  padding-bottom: 0;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #22577A;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+h3 {
+  color: #4F6D7A;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #22577A;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.7s;
+}
+
+.top-hr {
+  background-color: none;
+  border-style: dotted none none;
+  border-color: #CDDFDE;
+  border-width: 10px;
+  height: 0px;
+  width: 5%;
+  padding-bottom: 30px;
+}
+
+.bottom-hr {
+  background-color: none;
+  border-style: dotted none none;
+  border-color: #CDDFDE;
+  border-width: 10px;
+  height: 0px;
+  width: 5%;
+  padding-bottom: 30px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #D2DAEF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+  background-color: #D2DAEF;
+  padding: 50px 0 20px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me {
+  margin: 0 auto 30px auto;
+  line-height: 2;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #4F6D7A;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.mountain {
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+.headshot {
+  border-radius: 700px;
+  width: 400px;
+  height: auto;
+}
+
+.connection {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.compassion {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  border: none;
+  background-color: #22577A;
+  color: white;
+  border-radius:10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.7s;
+
+}
+
+.btn:hover {
+  background-color: #223044;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #40514E;
+  font-size: 0.75rem;
+  margin: 20px 0;
+}
